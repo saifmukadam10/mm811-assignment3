@@ -1,0 +1,25 @@
+[project]
+name = "mm811-assignment3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Saif Mukadam", email = "mukadamsaif9@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "torch>=2.14.0",
+    "torchmetrics>=1.9.0",
+    "torchvision>=0.29.0",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+mm811-assignment3 = "mm811_assignment3:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
